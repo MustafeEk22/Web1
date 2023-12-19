@@ -1,0 +1,70 @@
+/*flex-wrap:can also be nowrap and wrap-reverse; */
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color:blue;
+    height: 400px;
+}
+
+h1 { 
+    text-align: center;
+    color: black;
+    
+}
+
+.flex-container > div {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+   
+}
+
+#div1 {
+background-color: red;
+color: white;
+flex-grow: 3;
+order: 5;
+
+}
+
+#div2 {
+background-color: blueviolet;
+color: brown;
+align-self: flex-end;
+order: 4;
+}
+
+#div3 {
+background-color: green;
+color: yellow;
+flex-grow: 4;
+order: 3;
+flex-shrink: 3;
+}
+
+
+#div4 {
+background-color: yellow;
+color: orange;
+align-self: flex-start;
+order: 2;
+}
+
+#div5 {
+background-color: turquoise;
+color: red;
+flex-grow: 3;
+order: 1;
+flex-shrink: 4;
+
+}
+
+
+
+
+
